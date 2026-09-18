@@ -1,13 +1,186 @@
-<html>herrow</html>
-<!DOCTYPE html> Document is gemaakt in HTML
-<html>
+<!DOCTYPE html>
+<html lang="nl">
 <head>
-<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Over mij - Isa Barnett</title>
+<style>
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f3e6d8; /* beige */
+    color: #5a3a2e;
+  }
+
+  /* Bovenbalk */
+  header {
+    background-color: #e8a0b4; /* roze */
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  header .kicker {
+    color: #ffffff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    margin: 0;
+  }
+
+  header h1 {
+    margin: 8px 0 0;
+    color: #ffffff;
+    font-size: 2.6em;
+  }
+
+  /* Navigatie */
+  nav {
+    background-color: #d97b93;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 12px;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 6px 14px;
+    border-radius: 20px;
+  }
+
+  nav a:hover {
+    background-color: white;
+    color: #d97b93;
+  }
+
+  main {
+    max-width: 750px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+
+  main > p.intro {
+    text-align: center;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+
+  .foto-placeholder {
+    width: 200px;
+    height: 200px;
+    background-color: #f3e6d8;
+    border: 3px dashed #e8a0b4;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 30px;
+    color: #d97b93;
+    text-align: center;
+  }
+
+  /* Vakjes */
+  .vak {
+    background-color: #ffffff;
+    border-left: 6px solid #e8a0b4;
+    border-radius: 14px;
+    padding: 22px 26px;
+    margin-bottom: 22px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.06);
+  }
+
+  .vak h2 {
+    margin-top: 0;
+    color: #d9698a;
+  }
+
+  .vak p {
+    line-height: 1.6;
+    margin-bottom: 0;
+  }
+
+  .knop {
+    display: inline-block;
+    margin-top: 14px;
+    background-color: #e8a0b4;
+    color: white;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 0.2s;
+  }
+
+  .knop:hover {
+    background-color: #d9698a;
+  }
+
+  footer {
+    text-align: center;
+    padding: 20px;
+    color: #a07a63;
+    font-size: 0.9em;
+  }
+</style>
 </head>
 <body>
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+  <header>
+    <p class="kicker">Over mij</p>
+    <h1>Isa Barnett</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="Muziek.html">Muziek die ik luister</a>
+  </nav>
+
+  <main>
+    <div class="foto-placeholder">[ foto ]</div>
+
+    <p class="intro">
+      Hoi, ik ben Isa! Op deze website laat ik een beetje zien wie ik ben:
+      wat ik in mijn vrije tijd doe, hoe school gaat en waar ik graag naar luister.
+    </p>
+
+    <div class="vak">
+      <h2>🥾 Hobby: Wandelen</h2>
+      <p>
+        Een van mijn favoriete dingen om te doen is wandelen. Ik vind het heerlijk
+        om even helemaal offline te zijn, buiten in de natuur, en mijn hoofd leeg
+        te maken na een drukke schooldag. Het maakt niet uit of het bos, strand of
+        gewoon een rondje door de buurt is.
+      </p>
+    </div>
+
+    <div class="vak">
+      <h2>🎓 School: 5 vwo</h2>
+      <p>
+        Ik zit dit jaar in 5 vwo. Het is een druk jaar met veel toetsen en huiswerk,
+        maar het begint ook steeds meer te voelen alsof het eindpunt in zicht komt.
+        Ik ga stiekem best graag naar school, vooral om mijn vrienden te zien.
+      </p>
+    </div>
+
+    <div class="vak">
+      <h2>🎵 Muziek</h2>
+      <p>
+        Muziek is altijd om me heen: tijdens het huiswerk maken, het wandelen of
+        gewoon chillen op mijn kamer. Benieuwd naar wat ik de laatste tijd draai?
+      </p>
+      <a class="knop" href="Muziek.html">Muziek die ik luister</a>
+    </div>
+  </main>
+
+  <footer>
+    Gemaakt door Isa Barnett · schoolproject
+  </footer>
 
 </body>
 </html>
