@@ -1,0 +1,80 @@
+```css
+/* Algemene opmaak */
+body {
+    background-color: #f5eadf;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    color: #4a3438;
+}
+
+/* Home-knop */
+nav {
+    background-color: #e8a9b8;
+    padding: 15px;
+    text-align: left;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Titel */
+h1 {
+    color: #c76f87;
+    font-size: 40px;
+    margin-top: 35px;
+}
+
+.intro {
+    font-size: 18px;
+}
+
+/* Rondje voor de foto */
+.foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #e8a9b8;
+    margin: 25px auto;
+    overflow: hidden;
+    border: 5px solid white;
+}
+
+.foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* De drie vakjes */
+.vakjes {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 40px auto;
+    max-width: 1000px;
+}
+
+/* Ieder vakje */
+.vakje {
+    background-color: white;
+    border: 3px solid #e8a9b8;
+    border-radius: 15px;
+    padding: 25px;
+    width: 250px;
+    min-height: 180px;
+    box-shadow: 0 4px 10px #d8c5c5;
+}
+
+.vakje h2 {
+    color: #c76f87;
+}
+
+.vakje p {
+    line-height: 1.6;
+}
+```
