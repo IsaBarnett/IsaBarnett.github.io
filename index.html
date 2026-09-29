@@ -1,56 +1,131 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Mijn website</title>
-
-    <!-- Dit koppelt mijn HTML aan mijn CSS-bestand -->
-    <link rel="stylesheet" href="opmaak.css">
+    <title>Isa Barnett</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- Home -->
-    <nav>
-        <a href="index.html">Home</a>
-    </nav>
+<nav>
+    <b>🌸 Isa Barnett</b>
+    <a href="#">Home</a>
 
-    <!-- Titel -->
-    <h1>Mijn website</h1>
-    <p class="intro">Welkom op mijn website!</p>
+    <div class="dropdown">
+        <button>Menu ▼</button>
+        <div class="dropdown-content">
+            <a href="#">Invoer - verwerking - uitvoer</a>
+            <a href="#">Binair stelsel</a>
+            <a href="#">Kleurmodellen</a>
+            <a href="#">Compressie</a>
+        </div>
+    </div>
+</nav>
 
-    <!-- Rondje voor mijn foto -->
-    <div class="foto">
-        <img src="foto.jpg" alt="Mijn foto">
+<h1>🌸 Isa Barnett 🌸</h1>
+
+<p>Welkom op mijn website!</p>
+
+<div class="vakken">
+
+    <div class="vak">
+        <div class="foto">Foto</div>
+        <h2>♫ Muziek</h2>
+        <p>Hier vertel ik iets over muziek.</p>
+        <button>Lees meer</button>
     </div>
 
-    <!-- Drie vakjes -->
-    <div class="vakjes">
-
-        <div class="vakje">
-            <h2>Wandelen</h2>
-            <p>
-                Ik vind wandelen leuk omdat ik lekker buiten kan zijn
-                en kan genieten van de omgeving.
-            </p>
-        </div>
-
-        <div class="vakje">
-            <h2>School</h2>
-            <p>
-                Ik zit op school en hier vertel ik iets over mijn
-                school en mijn favoriete vakken.
-            </p>
-        </div>
-
-        <div class="vakje">
-            <h2>Muziek</h2>
-            <p>
-                Ik luister graag naar muziek. Hier vertel ik meer
-                over mijn favoriete muziek en artiesten.
-            </p>
-        </div>
-
+    <div class="vak">
+        <div class="foto">Foto</div>
+        <h2>📚 School</h2>
+        <p>Hier vertel ik iets over school.</p>
+        <button>Lees meer</button>
     </div>
+
+    <div class="vak">
+        <div class="foto">Foto</div>
+        <h2>♡ Wandelen</h2>
+        <p>Hier vertel ik iets over wandelen.</p>
+        <button>Lees meer</button>
+    </div>
+
+</div>
+
+<p>🌸 ♡ 🌸 ♡ 🌸</p>
 
 </body>
-</html>
+</html>body {
+    background: #f5e8dc;
+    color: #60464e;
+    font-family: Arial;
+    text-align: center;
+}
+
+nav {
+    background: #e7a6ba;
+    padding: 15px;
+}
+
+nav a, nav b {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+}
+
+button {
+    background: #d889a3;
+    color: white;
+    border: 0;
+    padding: 8px 15px;
+    border-radius: 15px;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: #fff8f2;
+}
+
+.dropdown-content a {
+    display: block;
+    color: #60464e;
+    padding: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+h1 {
+    color: #c96f8e;
+    margin: 40px;
+}
+
+.vakken {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.vak {
+    background: #fff8f2;
+    border: 2px solid #d889a3;
+    border-radius: 15px;
+    padding: 20px;
+    width: 220px;
+}
+
+.foto {
+    background: #edc4d0;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    padding-top: 25px;
+    box-sizing: border-box;
+}
