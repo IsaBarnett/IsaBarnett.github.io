@@ -24,7 +24,12 @@
             margin-right: 25px;
         }
 
-        main { padding: 40px; }
+        main {
+            display: flex;
+            align-items: flex-start;
+            gap: 30px;
+            padding: 40px;
+        }
 
         .tekst {
             background-color: #EAD5C5;
@@ -32,6 +37,12 @@
             border-radius: 15px;
             max-width: 800px;
             line-height: 1.7;
+            flex: 1;
+        }
+
+        .foto {
+            width: 300px;
+            border-radius: 15px;
         }
 
         h2 { color: #A34F3D; }
@@ -83,11 +94,11 @@
             Het belangrijkste verschil is dat RGB vooral voor
             schermen wordt gebruikt en CMYK voor drukwerk.
         </p>
-    </div>  
+    </div>
 
-         <img class="foto"
-         src="afbeeding kleurmodellen"
-         alt="kleuren">
+    <img class="foto"
+         src="kleurmodellen.png"
+         alt="Afbeelding van kleurmodellen">
 </main>
 
 </body>
