@@ -24,7 +24,12 @@
             margin-right: 25px;
         }
 
-        main { padding: 40px; }
+        main {
+            display: flex;
+            align-items: flex-start;
+            gap: 30px;
+            padding: 40px;
+        }
 
         .tekst {
             background-color: #DDE5D8;
@@ -32,9 +37,15 @@
             border-radius: 15px;
             max-width: 800px;
             line-height: 1.7;
+            flex: 1;
         }
 
         h2 { color: #52705A; }
+
+        .foto {
+            width: 400px;
+            border-radius: 15px;
+        }
     </style>
 </head>
 <body>
@@ -86,6 +97,11 @@
             vooral voor logo's en tekeningen.
         </p>
     </div>
+
+    <img class="foto"
+         src="bitmap-vector.png"
+         alt="Verschil tussen bitmap en vector">
+
 </main>
 
 </body>
