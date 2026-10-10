@@ -1,7 +1,9 @@
+```html
 <!DOCTYPE html>
 <html>
 <head>
     <title>Binair stelsel</title>
+
     <style>
         body {
             margin: 0;
@@ -10,8 +12,13 @@
             color: #263D5A;
         }
 
-        header { padding: 25px 40px; }
-        h1 { font-size: 45px; }
+        header {
+            padding: 25px 40px;
+        }
+
+        h1 {
+            font-size: 45px;
+        }
 
         nav {
             background-color: #263D5A;
@@ -24,7 +31,9 @@
             margin-right: 25px;
         }
 
-        main { padding: 40px; }
+        main {
+            padding: 40px;
+        }
 
         .tekst {
             background-color: #E3E1D5;
@@ -34,18 +43,33 @@
             line-height: 1.7;
         }
 
-        h2 { color: #263D5A; }
+        h2 {
+            color: #263D5A;
+        }
 
-        .link {
-            display: inline-block;
+        .binary-afbeelding {
+            display: block;
             background-color: #263D5A;
             color: #F3E8D5;
-            padding: 12px 20px;
-            border-radius: 10px;
+            padding: 20px;
+            border-radius: 15px;
+            text-align: center;
             text-decoration: none;
+            max-width: 300px;
+            margin-top: 20px;
+        }
+
+        .binary-afbeelding h3 {
+            font-size: 28px;
+            letter-spacing: 5px;
+        }
+
+        .binary-afbeelding:hover {
+            background-color: #405879;
         }
     </style>
 </head>
+
 <body>
 
 <header>
@@ -54,7 +78,7 @@
 
 <nav>
     <a href="index.html">Home</a>
-    <a href="i.v.u..html">I.V.U.</a>
+    <a href="i.v.u.html">I.V.U.</a>
     <a href="kleurmodellen.html">Kleurmodellen</a>
     <a href="binairstelsel.html">Binair stelsel</a>
     <a href="compressie.html">Compressie</a>
@@ -63,6 +87,7 @@
 
 <main>
     <div class="tekst">
+
         <h2>Wat is het binaire stelsel?</h2>
 
         <p>
@@ -82,16 +107,23 @@
 
         <p>
             Wil je meer leren over binaire getallen?
-            Probeer dan Binary Bonanza!
+            Klik dan op de afbeelding hieronder om Binary Bonanza
+            te spelen!
         </p>
 
-        <a class="link"
-           href="https://www.binarybonanza.com/"
+        <a class="binary-afbeelding"
+           href="https://games.penjee.com/binary-bonanza/"
            target="_blank">
-            Binary Bonanza →
+
+            <h3>010101 101010</h3>
+            <p>🎮 Binary Bonanza</p>
+            <p>Klik hier om te spelen!</p>
+
         </a>
+
     </div>
 </main>
 
 </body>
 </html>
+```
