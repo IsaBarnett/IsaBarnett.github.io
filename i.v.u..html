@@ -31,15 +31,23 @@
         }
 
         main {
+            display: flex;
+            gap: 30px;
             padding: 40px;
+            align-items: flex-start;
         }
 
         .tekst {
             background-color: #E8D8C0;
             padding: 25px;
             border-radius: 15px;
-            max-width: 800px;
+            max-width: 600px;
             line-height: 1.7;
+        }
+
+        .foto {
+            width: 300px;
+            border-radius: 15px;
         }
 
         h2 {
@@ -50,44 +58,51 @@
 
 <body>
 
-    <header>
-        <h1>I.V.U.</h1>
-    </header>
+<header>
+    <h1>I.V.U.</h1>
+</header>
 
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="i.v.u..html">I.V.U.</a>
-        <a href="kleurmodellen.html">Kleurmodellen</a>
-        <a href="binairstelsel.html">Binair stelsel</a>
-        <a href="compressie.html">Compressie</a>
-        <a href="ai.html">AI</a>
-    </nav>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="i.v.u..html">I.V.U.</a>
+    <a href="kleurmodellen.html">Kleurmodellen</a>
+    <a href="binairstelsel.html">Binair stelsel</a>
+    <a href="compressie.html">Compressie</a>
+    <a href="ai.html">AI</a>
+</nav>
 
-    <main>
-        <div class="tekst">
-            <h2>Invoer, verwerking en uitvoer</h2>
+<main>
+    <div class="tekst">
+        <h2>Invoer, verwerking en uitvoer</h2>
 
-            <p>
-                Een computer werkt met drie belangrijke stappen:
-                invoer, verwerking en uitvoer. Bij invoer krijgt de
-                computer informatie binnen, bijvoorbeeld wanneer je
-                iets typt op je toetsenbord.
-            </p>
+        <p>
+            Een computer werkt met drie belangrijke stappen:
+            invoer, verwerking en uitvoer. Bij invoer krijgt de
+            computer informatie binnen, bijvoorbeeld wanneer je
+            iets typt op je toetsenbord.
+        </p>
 
-            <p>
-                Daarna verwerkt de computer deze informatie.
-                Hij voert bijvoorbeeld een berekening uit.
-                Bij uitvoer krijg je het resultaat te zien of te horen,
-                zoals een antwoord op je scherm.
-            </p>
+        <p>
+            Daarna verwerkt de computer deze informatie.
+            Hij voert bijvoorbeeld een berekening uit.
+            Bij uitvoer krijg je het resultaat te zien of te horen,
+            zoals een antwoord op je scherm.
+        </p>
 
-            <p>
-                Een voorbeeld is een rekenmachine. Je voert getallen in,
-                de rekenmachine berekent het antwoord en daarna verschijnt
-                het antwoord op het scherm.
-            </p>
-        </div>
-    </main>
+        <p>
+            Een voorbeeld is een rekenmachine. Je voert getallen in,
+            de rekenmachine berekent het antwoord en daarna verschijnt
+            het antwoord op het scherm.
+        </p>
+    </div>
+
+    <a href="https://www.etsy.com/nl/listing/1771840860/computer-draagt-toetsenbord-en-muis"
+       target="_blank">
+        <img class="foto"
+             src="AFBEELDING-URL-HIER"
+             alt="Computer met toetsenbord en muis">
+    </a>
+</main>
 
 </body>
 </html>
