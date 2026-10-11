@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -64,8 +65,19 @@
             background-color: #405879;
         }
 
+        .rechterkant {
+            width: 280px;
+            flex-shrink: 0;
+        }
+
         .foto {
             width: 280px;
+            border-radius: 15px;
+        }
+
+        .video {
+            width: 280px;
+            height: 158px;
             border-radius: 15px;
         }
     </style>
@@ -132,21 +144,24 @@
             computers allerlei soorten informatie opslaan.
         </p>
 
+    </div>
+
+    <div class="rechterkant">
+        <img class="foto"
+             src="hexadecimaal.png"
+             alt="De hexadecimale symbolen in het binaire stelsel">
+
         <h2>Filmpje</h2>
 
-        <iframe width="100%" height="315"
+        <iframe class="video"
             src="https://www.youtube.com/embed/TeQH_Bei8iU"
             title="Filmpje over het binaire stelsel"
             allowfullscreen>
         </iframe>
-
     </div>
-
-    <img class="foto"
-         src="hexadecimaal.png"
-         alt="De hexadecimale symbolen in het binaire stelsel">
 
 </main>
 
 </body>
 </html>
+```
