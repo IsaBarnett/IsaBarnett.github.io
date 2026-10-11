@@ -1,4 +1,4 @@
-```html
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,12 +7,18 @@
         body {
             margin: 0;
             font-family: Arial, sans-serif;
+            font-size: 16px;
             background-color: #F3E8D5;
             color: #A34F3D;
         }
 
         header { padding: 25px 40px; }
-        h1 { font-size: 45px; }
+
+        h1, h2 {
+            font-size: 16px;
+            font-weight: normal;
+            color: #A34F3D;
+        }
 
         nav {
             background-color: #A34F3D;
@@ -57,8 +63,6 @@
             margin-top: 20px;
             border-radius: 15px;
         }
-
-        h2 { color: #A34F3D; }
     </style>
 </head>
 <body>
@@ -85,35 +89,32 @@
             en CMYK. Je camera bestaat uit een aantal lenzen waarachter een beeldsensor ligt: de CCD.
         </p>
 
-        <h2>RGB</h2n
+        <h2>RGB</h2>
 
         <p>
             De puntjes op je beeldscherm heten pixels. Als je nog verder inzoomt
             zie je rode, groene en blauwe lampjes: RGB.
-            Iedere pixel bestaat uit drie lampjes. 
+            Iedere pixel bestaat uit drie lampjes.
             Dit kleurmodel wordt gebruikt bij schermen,
             zoals telefoons en computers. Door deze drie kleuren
-            te mengen, kunnen veel verschillende kleuren ontstaan. 
-            Deze keuren vormen de basis van alle andere kleuren.
-            Als je beelscherm uitstaat, is het zwart. De lampjes van de
+            te mengen, kunnen veel verschillende kleuren ontstaan.
+            Deze kleuren vormen de basis van alle andere kleuren.
+            Als je beeldscherm uitstaat, is het zwart. De lampjes van de
             pixels branden dan niet. Door de kleuren aan de zwarte achtergrond toe te voegen,
             ontstaan er nieuwe kleuren. En als je alle kleuren gebruikt ontstaat er wit.
             Een computer kan niet werken met procenten, alleen
             met gehele getallen. Daarom wordt de hoeveelheid rood, groen en blauw aangegeven met
             een decimaal getal van 0 t/m 255 (een byte).
-        
         </p>
 
         <h2>CMY</h2>
 
         <p>
-           Het CMY model is nodig bij het printen, omdat het RGB model niet werkt op 
+            Het CMY model is nodig bij het printen, omdat het RGB model niet werkt op
             wit papier. CMY staat voor cyaan, magenta en geel.
             Bij het mengen van deze kleuren krijg je geen zwart, maar donkergrijs.
             Om toch zwart te krijgen met dit kleurenmodel, wordt zwart toegevoegd.
-            Hierdoor onstaat het kleurenmodel CMYK.
-            
-     
+            Hierdoor ontstaat het kleurenmodel CMYK.
         </p>
 
         <p>
@@ -137,8 +138,6 @@
              src="kleurmodellen.png"
              alt="Afbeelding van kleurmodellen">
 
-        <h2></h2>
-
         <iframe class="video"
             src="https://www.youtube.com/embed/cKaRxd6tdHY"
             title="Filmpje over kleurmodellen"
@@ -149,4 +148,3 @@
 
 </body>
 </html>
-```
