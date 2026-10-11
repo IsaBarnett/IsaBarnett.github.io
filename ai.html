@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -46,8 +47,20 @@
 
         h2 { color: #75608D; }
 
+        .rechterkant {
+            width: 300px;
+            flex-shrink: 0;
+        }
+
         .foto {
-            width: 350px;
+            width: 300px;
+            border-radius: 15px;
+        }
+
+        .video {
+            width: 300px;
+            height: 169px;
+            margin-top: 10px;
             border-radius: 15px;
         }
     </style>
@@ -155,23 +168,26 @@
                 AI kan handig zijn, maar het blijft belangrijk om
                 kritisch te blijven en informatie te controleren.
             </p>
-
-            <h2>Filmpje</h2>
-
-            <iframe width="100%" height="315"
-                src="https://www.youtube.com/embed/JcXKbUIebrU"
-                title="Filmpje over AI"
-                allowfullscreen>
-            </iframe>
         </div>
 
     </div>
 
-    <img class="foto"
-         src="ai-afbeelding.png"
-         alt="Kunstmatige intelligentie op een computerchip">
+    <div class="rechterkant">
+        <img class="foto"
+             src="ai-afbeelding.png"
+             alt="Kunstmatige intelligentie op een computerchip">
+
+        <h2></h2>
+
+        <iframe class="video"
+            src="https://www.youtube.com/embed/JcXKbUIebrU"
+            title="Filmpje over AI"
+            allowfullscreen>
+        </iframe>
+    </div>
 
 </main>
 
 </body>
 </html>
+```
