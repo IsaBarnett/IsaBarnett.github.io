@@ -7,16 +7,24 @@
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            font-size: 16px;
             background-color: #F3E8D5;
             color: #A34F3D;
-        }
-
-        header { padding: 25px 40px; }
-
-        h1, h2 {
             font-size: 16px;
             font-weight: normal;
+        }
+
+        header {
+            padding: 25px 40px;
+        }
+
+        h1 {
+            font-size: 45px;
+            font-weight: bold;
+        }
+
+        h2 {
+            font-size: 24px;
+            font-weight: bold;
             color: #A34F3D;
         }
 
@@ -47,6 +55,12 @@
             flex: 1;
         }
 
+        .tekst p {
+            font-size: 16px;
+            font-weight: normal;
+            line-height: 1.7;
+        }
+
         .rechterkant {
             width: 300px;
             flex-shrink: 0;
@@ -65,6 +79,7 @@
         }
     </style>
 </head>
+
 <body>
 
 <header>
@@ -81,12 +96,15 @@
 </nav>
 
 <main>
+
     <div class="tekst">
+
         <h2>Wat zijn kleurmodellen?</h2>
 
         <p>
-            Een kleurmodel gebruikt het mengen van kleuren om andere kleuren te maken. Twee bekende kleurmodellen zijn RGB
-            en CMYK. Je camera bestaat uit een aantal lenzen waarachter een beeldsensor ligt: de CCD.
+            Een kleurmodel gebruikt het mengen van kleuren om andere kleuren te maken.
+            Twee bekende kleurmodellen zijn RGB en CMYK.
+            Je camera bestaat uit een aantal lenzen waarachter een beeldsensor ligt: de CCD.
         </p>
 
         <h2>RGB</h2>
@@ -131,9 +149,11 @@
             en werkt met cyaan, magenta, geel en zwart. Zo kunnen
             kleuren op een scherm en op papier worden weergegeven.
         </p>
+
     </div>
 
     <div class="rechterkant">
+
         <img class="foto"
              src="kleurmodellen.png"
              alt="Afbeelding van kleurmodellen">
@@ -143,7 +163,9 @@
             title="Filmpje over kleurmodellen"
             allowfullscreen>
         </iframe>
+
     </div>
+
 </main>
 
 </body>
