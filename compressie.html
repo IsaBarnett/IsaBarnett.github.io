@@ -1,4 +1,3 @@
-```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -41,6 +40,11 @@
             flex: 1;
         }
 
+        .tekst p {
+            font-size: 16px;
+            font-weight: normal;
+        }
+
         h2 { color: #52705A; }
 
         .rechterkant {
@@ -78,6 +82,7 @@
 
 <main>
     <div class="tekst">
+
         <h2>Wat is compressie?</h2>
 
         <p>
@@ -89,10 +94,11 @@
         <h2>Bitmap</h2>
 
         <p>
-            Een afbeeding die is opgebouwd uit pixels noem je een bitmapafbeelding.
-            Zo'n afbeelding kost veel opslagruimte en als je inzoomt worden de losse
-            pixels zichtbaar en is de afbeelding niet meer scherp.
-            
+            Een afbeelding die is opgebouwd uit pixels noem je
+            een bitmapafbeelding.
+            Zo'n afbeelding kost veel opslagruimte en als je
+            inzoomt worden de losse pixels zichtbaar en is de
+            afbeelding niet meer scherp.
         </p>
 
         <h2>Vector</h2>
@@ -100,7 +106,7 @@
         <p>
             Een vectorafbeelding bestaat uit lijnen en vormen
             die met berekeningen worden gemaakt. Hierdoor kun je
-            de afbeelding groter of kleiner maken zonder dat]
+            de afbeelding groter of kleiner maken zonder dat
             deze onscherp wordt. Logo's worden vaak als vector
             opgeslagen.
         </p>
@@ -108,6 +114,20 @@
         <p>
             Bitmap wordt dus vaak gebruikt voor foto's en vector
             vooral voor logo's en tekeningen.
+        </p>
+
+        <h2>Geluidsfragmenten</h2>
+
+        <p>
+            Ook bij geluidsfragmenten wordt compressie gebruikt.
+            Geluidsbestanden kunnen namelijk veel opslagruimte
+            innemen. Door compressie wordt het bestand kleiner.
+            Bij MP3 worden bijvoorbeeld geluiden weggelaten
+            die mensen bijna niet kunnen horen.
+            Hierdoor neemt het bestand minder ruimte in,
+            maar kan de geluidskwaliteit iets minder worden.
+            Bij compressie zonder kwaliteitsverlies blijft
+            alle geluidsinformatie behouden.
         </p>
 
         <h2>Samenvatting van het filmpje</h2>
@@ -120,24 +140,24 @@
             lijnen en vormen en blijft scherp wanneer de afbeelding
             groter wordt gemaakt.
         </p>
+
     </div>
 
     <div class="rechterkant">
+
         <img class="foto"
              src="bitmap-vector.png"
              alt="Verschil tussen bitmap en vector">
-
-        <h2></h2>
 
         <iframe class="video"
             src="https://www.youtube.com/embed/Lto-ajuqW3w"
             title="Filmpje over compressie"
             allowfullscreen>
         </iframe>
+
     </div>
 
 </main>
 
 </body>
 </html>
-```
